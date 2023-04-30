@@ -1,1 +1,112 @@
-<div id="app"></div>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visualización AG3</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      .negrita {
+        font-weight: bold;
+      }
+
+      .grafico {
+        margin-bottom: 30px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <span class="negrita">Nombre:</span> Samuel de Paúl Smith
+      <br />
+      <span class="negrita">URL:</span>
+      <a href="https://js-de4knz.stackblitz.io" target="_blank">
+        https://js-de4knz.stackblitz.io
+      </a>
+      <br />
+      <span class="negrita">GitHub:</span>
+      <a
+        href="https://github.com/samueldepaul/08MBID---Visualizacion-de-Datos"
+        target="_blank"
+        >https://github.com/samueldepaul/08MBID---Visualizacion-de-Datos
+      </a>
+      <br />
+      <span class="negrita">Google Colab:</span>
+      <a
+        href="https://colab.research.google.com/drive/1t_2R-Q3KzYpiaRDSp1MZ26g6Htq3VbUQ?usp=sharing"
+        target="_blank"
+        >https://colab.research.google.com/drive/1t_2R-Q3KzYpiaRDSp1MZ26g6Htq3VbUQ?usp=sharing
+      </a>
+      <h1>Visualización AG3</h1>
+      <h2>Python + Seaborn</h2>
+      <h3>Distribución de las clases</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Distribucion%20de%20las%20clases.png?raw=true"
+      />
+      <h3>Distribución por edad</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Distribucion%20por%20edad.png?raw=true"
+      />
+      <h3>Boxplot de la edad por género y clase</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Boxplot%20de%20la%20edad%20por%20genero%20y%20clase.png?raw=true"
+      />
+      <h3>Distribución cruzada de edad y tarifa</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Distribuci%C3%B3n%20cruzada%20edad%20y%20tarifa.png?raw=true"
+      />
+      <h3>FacetGrid distribución de clase edad y supervivientes</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/FacetGrid%20distribuci%C3%B3n%20de%20clase%20edad%20y%20supervivientes.png?raw=true"
+      />
+      <h3>Mapa de calor de la correlación entre las variables numéricas</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Mapa%20de%20calor%20de%20las%20variables%20numericas.png?raw=true"
+      />
+      <h3>Matriz de diagramas de dispersión de parejas de variables</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Matriz%20de%20diagramas%20de%20dispersi%C3%B3n%20de%20parejas%20de%20variables.png?raw=true"
+      />
+      <h3>
+        Matriz de diagramas de dispersión de parejas de variables (dataset iris)
+      </h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/Matriz%20de%20diagramas%20de%20dispersi%C3%B3n%20de%20parejas%20de%20variables%20(dataset%20iris).png?raw=true"
+      />
+      <h3>GRÁFICO EXTRA</h3>
+      <img
+        src="https://github.com/samueldepaul/AG3_Visualizacion-de-Datos/blob/main/grafico%20extra.png?raw=true"
+      />
+
+      <h2>D3Plus</h2>
+      <h3>Gráfico de Columnas con D3Plus</h3>
+      <div id="viz1"></div>
+
+      <h3>Reutilizar código. Barras</h3>
+      <div id="viz2"></div>
+
+      <h3>EXTRA: Caja y Bigotes</h3>
+      <div id="viz3"></div>
+    </div>
+  </body>
+</html>
